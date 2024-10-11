@@ -20,7 +20,7 @@
         "bombenprodukt/laravel-package-powerpack": "^1.0",
         "illuminate/contracts": "^10.0",
         "nesbot/carbon": "^2.66",
-        "symfony/dom-crawler": "^6.2"
+        "symfony/dom-crawler": "^7.1"
     },
     "require-dev": {
         "bombenprodukt/php-cs-fixer-config": "^1.0",
