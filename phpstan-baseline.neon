@@ -1,0 +1,36 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Cannot call method fetchArray\\(\\) on SQLite3Result\\|false\\.$#"
+			count: 1
+			path: src/FirefoxParser.php
+
+		-
+			message: "#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\\.$#"
+			count: 1
+			path: src/GoogleChromeParser.php
+
+		-
+			message: "#^Cannot access offset 'roots' on mixed\\.$#"
+			count: 1
+			path: src/GoogleChromeParser.php
+
+		-
+			message: "#^Parameter \\#1 \\$node of method BombenProdukt\\\\BookmarkParser\\\\GoogleChromeParser\\:\\:parseNode\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: src/GoogleChromeParser.php
+
+		-
+			message: "#^Parameter \\#1 \\$timestamp of static method Carbon\\\\CarbonImmutable\\:\\:createFromTimestamp\\(\\) expects float\\|int\\|string, string\\|null given\\.$#"
+			count: 1
+			path: src/HtmlParser.php
+
+		-
+			message: "#^Parameter \\$link of class BombenProdukt\\\\BookmarkParser\\\\Bookmark constructor expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/HtmlParser.php
+
+		-
+			message: "#^Parameter \\$link of class BombenProdukt\\\\BookmarkParser\\\\Bookmark constructor expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/SafariParser.php
