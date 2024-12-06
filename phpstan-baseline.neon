@@ -1,0 +1,71 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Cannot call method in\\(\\) on iterable\\<SplFileInfo\\>\\.$#"
+			count: 1
+			path: .php-cs-fixer.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\BookmarkParser\\\\Bookmark\\:\\:getBase64Icon\\(\\) should return string but returns string\\|null\\.$#"
+			count: 1
+			path: src/Bookmark.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\BookmarkParser\\\\Bookmark\\:\\:toArray\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Bookmark.php
+
+		-
+			message: "#^Cannot call method fetchArray\\(\\) on SQLite3Result\\|false\\.$#"
+			count: 1
+			path: src/FirefoxParser.php
+
+		-
+			message: "#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\\.$#"
+			count: 1
+			path: src/GoogleChromeParser.php
+
+		-
+			message: "#^Cannot access offset 'roots' on mixed\\.$#"
+			count: 1
+			path: src/GoogleChromeParser.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\BookmarkParser\\\\GoogleChromeParser\\:\\:parseNode\\(\\) has parameter \\$bookmarks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/GoogleChromeParser.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\BookmarkParser\\\\GoogleChromeParser\\:\\:parseNode\\(\\) has parameter \\$node with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/GoogleChromeParser.php
+
+		-
+			message: "#^Parameter \\#1 \\$node of method BaseCodeOy\\\\BookmarkParser\\\\GoogleChromeParser\\:\\:parseNode\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: src/GoogleChromeParser.php
+
+		-
+			message: "#^Parameter \\#1 \\$timestamp of static method Carbon\\\\CarbonImmutable\\:\\:createFromTimestamp\\(\\) expects float\\|int\\|string, string\\|null given\\.$#"
+			count: 1
+			path: src/HtmlParser.php
+
+		-
+			message: "#^Parameter \\$link of class BaseCodeOy\\\\BookmarkParser\\\\Bookmark constructor expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/HtmlParser.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\BookmarkParser\\\\ParserInterface\\:\\:parse\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/ParserInterface.php
+
+		-
+			message: "#^Parameter \\$link of class BaseCodeOy\\\\BookmarkParser\\\\Bookmark constructor expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/SafariParser.php
+
+		-
+			message: "#^Undefined variable\\: \\$this$#"
+			count: 1
+			path: tests/Pest.php

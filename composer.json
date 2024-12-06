@@ -1,0 +1,58 @@
+{
+    "name": "basecodeoy/bookmark-parser",
+    "description": "A package to parse bookmarks with PHP.",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "BaseCode Oy",
+        "laravel",
+        "bookmark-parser"
+    ],
+    "authors": [
+        {
+            "name": "Brian Faust",
+            "email": "hello@basecode.sh",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/basecodeoy/bookmark-parser",
+    "support": {
+        "issues": "https://github.com/basecodeoy/bookmark-parser/issues",
+        "source": "https://github.com/basecodeoy/bookmark-parser",
+        "security": "https://github.com/basecodeoy/bookmark-parser/blob/main/.github/SECURITY.md"
+    },
+    "require": {
+        "php": "^8.3",
+        "ext-sqlite3": "*",
+        "basecodeoy/crate": "^1.0.0",
+        "illuminate/contracts": "^11.0",
+        "nesbot/carbon": "^2.72.5",
+        "symfony/dom-crawler": "^7.2.0"
+    },
+    "require-dev": {
+        "basecodeoy/standards": "^1.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "BaseCodeOy\\BookmarkParser\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true,
+            "infection/extension-installer": true,
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        },
+        "audit": {
+            "abandoned": "report"
+        },
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
