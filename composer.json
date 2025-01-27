@@ -26,7 +26,7 @@
         "ext-sqlite3": "*",
         "basecodeoy/crate": "^1.0.0",
         "illuminate/contracts": "^11.0",
-        "nesbot/carbon": "^2.72.5",
+        "nesbot/carbon": "^2.72.6",
         "symfony/css-selector": "^7.2",
         "symfony/dom-crawler": "^7.2.0"
     },
